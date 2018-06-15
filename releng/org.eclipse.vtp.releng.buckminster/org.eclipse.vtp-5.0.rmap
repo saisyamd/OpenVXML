@@ -14,7 +14,7 @@
   <rm:locator pattern="^com\.openmethods\.openvxml\.idriver(\..+)?" searchPathRef="OpenVXML-Platform-Plugins"/>
   <rm:searchPath name="OpenVXML-Platform-Features">
   	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,platforms/features/{1}">
+  		<rm:uri format="{0},platforms/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -25,7 +25,7 @@
   </rm:searchPath>
   <rm:searchPath name="OpenVXML-Platform-Plugins">
   	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,platforms/plugins/{1}">
+  		<rm:uri format="{0},platforms/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -35,7 +35,7 @@
   </rm:searchPath>
   <rm:searchPath name="VTP-Releng">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,releng/{1}">
+  		<rm:uri format="{0},releng/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -50,7 +50,7 @@
   </rm:searchPath>
   <rm:searchPath name="VTP-Framework-Features">
   	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,framework/features/{1}">
+  		<rm:uri format="{0},framework/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -65,7 +65,7 @@
   </rm:searchPath>
   <rm:searchPath name="VTP-Framework-Plugins">
   	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,framework/plugins/{1}">
+  		<rm:uri format="{0},framework/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -80,7 +80,7 @@
   </rm:searchPath>
   <rm:searchPath name="VTP-Desktop-Features">
   	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,desktop/features/{1}">
+  		<rm:uri format="{0},desktop/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -95,7 +95,7 @@
   </rm:searchPath>
   <rm:searchPath name="VTP-Desktop-Plugins">
   	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0}/openvxml,desktop/plugins/{1}">
+  		<rm:uri format="{0},desktop/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
