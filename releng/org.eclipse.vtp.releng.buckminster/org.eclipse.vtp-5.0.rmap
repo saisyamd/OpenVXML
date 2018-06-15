@@ -19,6 +19,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
@@ -29,6 +30,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
@@ -39,6 +41,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
 <!--    <rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="svn" source="true" mutable="true">
@@ -54,6 +57,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
 <!--    <rm:provider componentTypes="buckminster,eclipse.feature" readerType="svn" source="true" mutable="true">
@@ -69,6 +73,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
 <!--    <rm:provider componentTypes="buckminster,osgi.bundle" readerType="svn" source="true" mutable="true">
@@ -81,6 +86,7 @@
   	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="git" resolutionFilter="">
   		<rm:uri format="{0},desktop/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
+  			<rm:property key="git.remote.name" value="remove_version"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
@@ -99,6 +105,7 @@
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/saisyamd/OpenVXML.git"/>
+  		<rm:property key="git.remote.name" value="remove_version"/>
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
 <!--    <rm:provider componentTypes="buckminster,osgi.bundle" readerType="svn" source="true" mutable="true">
