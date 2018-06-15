@@ -13,8 +13,8 @@
   <rm:locator pattern="^com\.openmethods\.openvxml\.idriver(\..+)?\.feature" searchPathRef="OpenVXML-Platform-Features"/>
   <rm:locator pattern="^com\.openmethods\.openvxml\.idriver(\..+)?" searchPathRef="OpenVXML-Platform-Plugins"/>
   <rm:searchPath name="OpenVXML-Platform-Features">
-  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},platforms/features/{1}">
+  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},platforms/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -24,8 +24,8 @@
   	</rm:provider>
   </rm:searchPath>
   <rm:searchPath name="OpenVXML-Platform-Plugins">
-  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},platforms/plugins/{1}">
+  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},platforms/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -34,8 +34,8 @@
   	</rm:provider>
   </rm:searchPath>
   <rm:searchPath name="VTP-Releng">
-  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},releng/{1}">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},releng/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -49,8 +49,8 @@
     </rm:provider> -->
   </rm:searchPath>
   <rm:searchPath name="VTP-Framework-Features">
-  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},framework/features/{1}">
+  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},framework/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -64,8 +64,8 @@
     </rm:provider> -->
   </rm:searchPath>
   <rm:searchPath name="VTP-Framework-Plugins">
-  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},framework/plugins/{1}">
+  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},framework/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -79,8 +79,8 @@
     </rm:provider> -->
   </rm:searchPath>
   <rm:searchPath name="VTP-Desktop-Features">
-  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},desktop/features/{1}">
+  	<rm:provider componentTypes="buckminster,eclipse.feature" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},desktop/features/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
@@ -94,8 +94,8 @@
     </rm:provider> -->
   </rm:searchPath>
   <rm:searchPath name="VTP-Desktop-Plugins">
-  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="">
-  		<rm:uri format="{0},desktop/plugins/{1}">
+  	<rm:provider componentTypes="buckminster,osgi.bundle" readerType="local" resolutionFilter="(try_local_provider=yes)">
+  		<rm:uri format="file://{0},desktop/plugins/{1}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   		</rm:uri>
